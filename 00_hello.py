@@ -1,19 +1,19 @@
-print('hello world')
+print('hello world') 
 
-# ESTE ES UN COMENTARIO!!
+# ESTE ES UN COMENTARIO CON #
 
-"""ESTO ES UN 
-COMENTARIO 
-EN VARIAS LINEAS!!
+#====== COMENTARIOS DE VARIAS LINEAS ======#
+"""COMENTARIO 
+3 COMILLAS 
+DOBLES
 """
 
-'''
-ESTO ES UN 
-COMENTARIO 
-EN VARIAS LINEAS!!
+'''COMENTARIO 
+3 COMILLAS 
+SIMPLES
 '''
 
-# CONSULTAR EL TIPO DE DATO
+#====== CONSULTAR EL TIPO DE DATO ======#
 print(type("SOY UN DATO STR")) #TIPO 'STR'
 print(type(898)) #TIPO 'INT'
 print(type(1.5)) #TIPO FLOAT
