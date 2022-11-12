@@ -1,4 +1,4 @@
-#====== LISTAS======#
+#====== TUPLAS ======#
 tipo_tupla = tuple([15, 23, "Juan", 2.0])
 tupla = (20, 1.67,"Jose", "Romero")
 
