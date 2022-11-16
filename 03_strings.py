@@ -15,6 +15,8 @@ print(d)
 e = "\\tEste es un String \\n escapado"
 print(e)
 
+print(a,b,sep=' ') # SEPARA EL  CONTENIDO CON LO ASIGNADO EN EL SEP
+
 #====== FORMATEO ======#
 name, surname, age = "Jose", "Romero", 20
 print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age)) 
@@ -50,6 +52,17 @@ print(lenguaje.upper().isupper()) # TODD EN MAYUSCULAS, ¿ESTAN EN MAYUSCULAS?
 print(lenguaje.isnumeric()) # ¿ES UN NUMERO?
 print("1".isnumeric()) # ¿ES UN NUMERO?
 
+lenguaje = 'Python//SQL//Java'
+print(lenguaje.split('//')) # ESPACIO
 
+lenguaje = ['Python', 'SQL', 'Java']
+string_lenguaje = '-'.join(lenguaje) # SE VAN UNIR MEDIANTE UN -
+print(string_lenguaje)
+
+#====== JUSTIFICAR O ALINEAR ======#
+mensaje = 'HOLA MUNDO'
+print(mensaje.ljust(20)) # JUSTIFICAR A  LA IZQUIERDA con 20 espacios
+print(mensaje.rjust(20)) # JUSTIFICAR A  LA IDERECHA con 20 espacios
+print(mensaje.center(20)) # CENTRAR con 20 espacios a la izquierda y derecha
 
 

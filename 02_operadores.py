@@ -3,7 +3,7 @@
 print(15+2) # SUMA
 print(15-2) # RESTA
 print(15*2) # MULTIPLICACION
-print(15/2) # DIVISION
+print(15/2) # DIVISION (SI TIENE // LO TRANSFORMA  A NUMERO ENTERO)
 print(15%2) # RESTO
 print(15//2) # DIVISION APROXIMADA A NUMERO ENTERO
 print(15**2) # EXPONENTE
@@ -16,7 +16,7 @@ print("Hola " * (2**3)) #MULTIPLICA LA PALABRA 2**3 = 8 VECES
 variable_float = 2.5 * 2 
 print("Hola " * int(variable_float)) # TRANSFORMAR UN (FLOAT) EN (ENTERO) CON INT()
 
-#====== OPERADORES COMPARATIVOS ======#
+#====== OPERADORES COMPARATIVOS O RELACIONALES ======#
 print(3 > 4) # MAYOR A
 print(3 < 4) # MENOR A
 print(3 >= 4) # MAYOR IGUAL A

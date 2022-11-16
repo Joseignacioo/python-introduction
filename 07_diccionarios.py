@@ -29,3 +29,11 @@ print(diccionario)
 
 print("José" in diccionario) # EXISTE EN EL DICCIONARIO ? BUSCA POR KEYS
 print("Apellido" in diccionario) #EXISTE EN EL DICCIONARIO ? 
+
+print(diccionario.items()) # RETORNA EL DICCIONARIO DE ITEM UN LISTADO
+print(diccionario.keys())  # SOLO RETORNA LAS KEYS
+print(diccionario.values()) # SOLO RETORNA LOS VALORES
+
+new_diccionario = dict.fromkeys(("Nombre", 1)) # PARA CREAR UN DICCIONARIO
+print(new_diccionario)
+

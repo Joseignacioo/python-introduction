@@ -3,6 +3,7 @@ variable_str = "Mi string Variable"
 variable_int = 898
 variable_boolean = False
 print(variable_str, variable_int, variable_boolean)
+VARIABLE_CONSTANTE = 'VARIABLE UNICA'
 
 #====== VARIABLES EN UNA LINEA + CONCATENACIÓN ======#
 name,  surname, alias, age = "Jose", "Romero", "Joseignacioo", 20

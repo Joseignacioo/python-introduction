@@ -15,7 +15,9 @@ print(lista.count(20)) # CONTAR CUANTOS 20 HAY
 
 age, height, name, surname = lista #VARIABLES CON ORDEN DE LISTA
 print(name)
-print(lista + tipo_lista) # UNIR LISTAS
+tipo_lista.extend(lista) # UNIR LISTAS
+print(tipo_lista)
+# print(lista + tipo_lista) # UNIR LISTAS
 
 lista.append("Quezada") # AGREGAR A LA LISTA
 print(lista)
@@ -51,3 +53,18 @@ print(nueva_lista)
 
 print(nueva_lista[1:2]) # SUBLISTAS
 
+print(min(nueva_lista)) # RETORNA EL VALOR MINIMO
+print(max(nueva_lista)) #RETORNA EL VALOR  MAXIMO
+
+print(20 in nueva_lista) # EXISTE EN LA  LISTA
+print(20 not in nueva_lista) # NO EXISTE EN LA LISTA
+
+print(nueva_lista.index(20)) # RETORNA EL INDICE
+
+
+# MATRIZ
+columna_a = [10, 20]
+columna_b = [30, 40]
+
+matriz = [columna_a, columna_b] # 2 x 2
+print(matriz[0][1])
