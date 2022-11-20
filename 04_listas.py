@@ -68,3 +68,6 @@ columna_b = [30, 40]
 
 matriz = [columna_a, columna_b] # 2 x 2
 print(matriz[0][1])
+
+a = [1, 2, 3, 4, 5]
+print(a[-3:])

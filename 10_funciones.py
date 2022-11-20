@@ -2,6 +2,11 @@
 
 #====== FUNCION SIMPLE ======#
 def funcion():
+    # DOCUMENTAR LA FUNCION
+    """
+    La  funcion retorna  
+    un string
+    """
     print("Esto es una funcion")
 
 funcion()
@@ -79,3 +84,15 @@ resultado = operacion(10, 30)
 print(resultado)
 resultado = operacion(10, 30, 'retiro')
 print(resultado)
+
+
+#====== GENERADOR ======#
+def pares():
+    for n in range(0, 100, 2):
+        yield n # LA  FUNCION SUSPENDE EJECUCION
+        print("Se renuda la ejecucion")
+
+for i in pares():
+    print(i)
+
+
